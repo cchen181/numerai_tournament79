@@ -11,5 +11,4 @@ Through this tournament, I aim to strengthen intuition and gain a deeper underst
 to exploring the strengths and weaknesses of the models I use in an empirical manner. 
 
 The entire dataset is numerical and all identifiers within tournament data are scrubbed. One advantage of this is that users
-do not need any domain knowledge within finance. The dataset is released pre-processed so modelers can focus on 
-modeling. 
+do not need any domain knowledge within finance. The released dataset is clean; this enables modelers to focus on modeling techniques.
