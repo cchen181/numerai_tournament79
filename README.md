@@ -14,6 +14,7 @@ The entire dataset is numerical and all identifiers within tournament data are s
 do not need any domain knowledge within finance. The released dataset is clean; this enables modelers to focus on modeling techniques.
 
 
+
 Numer.ai releases several files to its users:
 example_model.py [contained in this repo] - A sample script creating and executing model prediction.
 example_model.r [not in this repo] - Script similar to above written in R.
