@@ -26,4 +26,4 @@ numerai_training_data.csv [not in repo due to size limits] - Data sample availab
 Scripts in this repo:
 data_details.ipynb - Script enabling others to see samples of both numerai*data.csv
 -------------------------
-Note: The training data is used to create, produce, and validate my model. Following validation, the model is run on the tournament data. Details in ______.ipynb
+The training data is used to create, produce, and validate my model. Following validation, the model is run on the tournament data. Details in ______.ipynb
