@@ -11,18 +11,19 @@ Through this tournament, I aim to strengthen intuition and gain a deeper underst
 to exploring the strengths and weaknesses of the models I use in an empirical manner. 
 
 The entire dataset is numerical and all identifiers within tournament data are scrubbed. One advantage of this is that users
-do not need any domain knowledge within finance. The released dataset is clean; this enables modelers to focus on modeling techniques.
+do not need any domain knowledge within finance. The released dataset is clean; this enables modelers to focus on exploring the data and modeling techniques.
 
 
 -------------------------
 Numer.ai releases several files to its users:
-example_model.py [contained in this repo] - A sample script creating and executing model prediction.
-example_model.r [not in this repo] - Script similar to above written in R.
-example_predictions.csv [contained in this repo] - Corresponding sample output of model prediction.
-numerai_tournament_data.csv [not in this repo] -  Data to test models.
-numerai_training_data.csv [not in this repo] - Data to create models.
-Both numerai*data.csv files exceed file limits of GitHub. Instead, samples of these datasets are available in ____.ipynb . 
-
+example_model.py [contained in  repo] - A sample script creating and executing model prediction.
+example_model.r [not in  repo] - Script similar to above written in R.
+example_predictions.csv [contained in  repo] - Corresponding sample output of model prediction.
+numerai_tournament_data.csv [not in repo due to size limits] -  Data sample available in data_details.ipynb.
+numerai_training_data.csv [not in repo due to size limits] - Data sample available in data_details.ipynb.
 
 -------------------------
-Acknowledgements: Sergey Fogelson, Kevin Mercurio, Group 2 [Dash ____, Emily Geller, Jon Kislin]
+Scripts in this repo:
+data_details.ipynb - Script enabling others to see samples of both numerai*data.csv
+-------------------------
+Note: The training data is used to create, produce, and validate my model. Following validation, the model is run on the tournament data. Details in ______.ipynb
