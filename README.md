@@ -18,3 +18,4 @@ From exploring the training data and preparing the dataset for model prediction,
   * there is a target, whose discrete values of 0 and 1, suggest a supervised learning modeling approach, specifically in classification. For these reasons, one of the modeling approaches I will use is logistic regression.
   * there are 135 features at my disposal for predictive modeling. There are 50 features in the original training dataset and converting one of the categorical variables, era, into several indicator variables results in a total of 135 features. 
   * the distributions of the 50 features are fairly similar. This is supported by a table of statistical summaries and density plots revealing fairly symmetrical bell-shaped curves around similar mean values.
+Details available in model_v2.ipynb.
