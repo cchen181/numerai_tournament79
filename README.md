@@ -10,3 +10,9 @@ Data includes training data (~230 MB) and tournament data (~150 MB). Further det
 Scripts in this repo:
 data_details.ipynb - Script enabling others to see data samples of both numerai*data.csv
 model_v2.ipynb
+
+-------------------------
+From exploring the training data and preparing the dataset for model prediction, I have learned:
+  * there is a target, whose discrete values of 0 and 1, suggest a supervised learning modeling approach, specifically in classification. For these reasons, one of the modeling approaches I will use is logistic regression.
+  * there are 135 features at my disposal for predictive modeling. There are 50 features in the original training dataset and converting one of the categorical variables, era, into several indicator variables results in a total of 135 features. 
+  * the distributions of the 50 features are fairly similar. Density plots reveal fairly symmetrical bell-shaped curves around similar mean values.
