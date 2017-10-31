@@ -6,7 +6,7 @@ financial rewards returned to successful modelers in the form of Numeraire.
 
 Data includes training data (~230 MB) and tournament data (~150 MB). Further details can be found on Numer.ai and in data_details.ipynb. 
 
-The training data is used to create different predictive models, and compare model performance of said models to determine the best predictive model. The best model is then run on the tournament data. Prior to modeling, the data is analyzed and prepared for modeling. Samples of original datasets are available in the data_details.ipynb.
+The training data is used to create different predictive models and model performance among said models is compared to determine the best predictive model. The best model is then run on the tournament data. Prior to modeling, the data is analyzed and prepared for modeling. Samples of original datasets are available in the data_details.ipynb.
 
 -------------------------
 Scripts in this repo:
