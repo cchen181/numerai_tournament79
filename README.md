@@ -11,7 +11,7 @@ The training data is used to create different predictive models and model perfor
 -------------------------
 Scripts in this repo:
   * data_details.ipynb - Script enabling others to see data samples of both numerai*data.csv
-  * model_v2.ipynb
+  * model_v2.ipynb - Script enabling others to see approach with EDA and modeling on the training set.
 
 -------------------------
 From exploring the training data and preparing the dataset for model prediction, I have learned:
@@ -20,4 +20,8 @@ From exploring the training data and preparing the dataset for model prediction,
   * the distributions of the 50 features are fairly similar. This is supported by a table of statistical summaries and density plots revealing fairly symmetrical bell-shaped curves around similar mean values.
   * With values ranging from -0.035647 to 0.032404, all 135 features appear weakly correlated to the target. Within all available features, those features labeled feature## are more strongly correlated with the targets than those labeled era##.
 
+In regards to modeling:
+  * Variations in feature selection led to the creation of 4 logistic regression models. These include models where 1 feature was used, all features were used, only those features labeled feature## were used, and those features which passed a certain correlation threshold. The cross-validated model accuracy scores of all 4 models suggest logistic regression is not a good approach. This may be due to the assumption of a linear relationship between the features and the response. 
+  * A random forest is created to explore the possibility of a nonlinear relationship between the features and the response. This modeling approach is currently in progress.
+    
 Details available in model_v2.ipynb.
